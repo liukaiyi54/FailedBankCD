@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C07D4071C184E30003658DB /* FailedBankInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4001C184E30003658DB /* FailedBankInfo+CoreDataProperties.m */; };
-		4C07D4081C184E30003658DB /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4021C184E30003658DB /* FailedBankInfo.m */; };
-		4C07D4091C184E30003658DB /* FailedBankDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4041C184E30003658DB /* FailedBankDetails+CoreDataProperties.m */; };
-		4C07D40A1C184E30003658DB /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4061C184E30003658DB /* FailedBankDetails.m */; };
+		4C07D4131C191AC4003658DB /* FailedBankDetails+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D40C1C191AC4003658DB /* FailedBankDetails+CoreDataProperties.m */; };
+		4C07D4141C191AC4003658DB /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D40E1C191AC4003658DB /* FailedBankDetails.m */; };
+		4C07D4151C191AC4003658DB /* FailedBankInfo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4101C191AC4003658DB /* FailedBankInfo+CoreDataProperties.m */; };
+		4C07D4161C191AC4003658DB /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C07D4121C191AC4003658DB /* FailedBankInfo.m */; };
 		4CA396411C0FE3DB00CFC0E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA396401C0FE3DB00CFC0E4 /* main.m */; };
 		4CA396441C0FE3DB00CFC0E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA396431C0FE3DB00CFC0E4 /* AppDelegate.m */; };
 		4CA396471C0FE3DB00CFC0E4 /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CA396451C0FE3DB00CFC0E4 /* FailedBankCD.xcdatamodeld */; };
@@ -21,14 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C07D3FF1C184E30003658DB /* FailedBankInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FailedBankInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4C07D4001C184E30003658DB /* FailedBankInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FailedBankInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4C07D4011C184E30003658DB /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
-		4C07D4021C184E30003658DB /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
-		4C07D4031C184E30003658DB /* FailedBankDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FailedBankDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
-		4C07D4041C184E30003658DB /* FailedBankDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FailedBankDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
-		4C07D4051C184E30003658DB /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
-		4C07D4061C184E30003658DB /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		4C07D40B1C191AC4003658DB /* FailedBankDetails+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FailedBankDetails+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4C07D40C1C191AC4003658DB /* FailedBankDetails+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FailedBankDetails+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4C07D40D1C191AC4003658DB /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		4C07D40E1C191AC4003658DB /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		4C07D40F1C191AC4003658DB /* FailedBankInfo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FailedBankInfo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4C07D4101C191AC4003658DB /* FailedBankInfo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FailedBankInfo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4C07D4111C191AC4003658DB /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		4C07D4121C191AC4003658DB /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
 		4CA3963C1C0FE3DB00CFC0E4 /* FailedBankCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FailedBankCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA396401C0FE3DB00CFC0E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CA396421C0FE3DB00CFC0E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,14 +81,14 @@
 				4CA396531C0FE3DB00CFC0E4 /* LaunchScreen.storyboard */,
 				4CA396561C0FE3DB00CFC0E4 /* Info.plist */,
 				4CA396451C0FE3DB00CFC0E4 /* FailedBankCD.xcdatamodeld */,
-				4C07D3FF1C184E30003658DB /* FailedBankInfo+CoreDataProperties.h */,
-				4C07D4001C184E30003658DB /* FailedBankInfo+CoreDataProperties.m */,
-				4C07D4011C184E30003658DB /* FailedBankInfo.h */,
-				4C07D4021C184E30003658DB /* FailedBankInfo.m */,
-				4C07D4031C184E30003658DB /* FailedBankDetails+CoreDataProperties.h */,
-				4C07D4041C184E30003658DB /* FailedBankDetails+CoreDataProperties.m */,
-				4C07D4051C184E30003658DB /* FailedBankDetails.h */,
-				4C07D4061C184E30003658DB /* FailedBankDetails.m */,
+				4C07D40B1C191AC4003658DB /* FailedBankDetails+CoreDataProperties.h */,
+				4C07D40C1C191AC4003658DB /* FailedBankDetails+CoreDataProperties.m */,
+				4C07D40D1C191AC4003658DB /* FailedBankDetails.h */,
+				4C07D40E1C191AC4003658DB /* FailedBankDetails.m */,
+				4C07D40F1C191AC4003658DB /* FailedBankInfo+CoreDataProperties.h */,
+				4C07D4101C191AC4003658DB /* FailedBankInfo+CoreDataProperties.m */,
+				4C07D4111C191AC4003658DB /* FailedBankInfo.h */,
+				4C07D4121C191AC4003658DB /* FailedBankInfo.m */,
 				4CA3963F1C0FE3DB00CFC0E4 /* Supporting Files */,
 			);
 			path = FailedBankCD;
@@ -172,14 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C07D4161C191AC4003658DB /* FailedBankInfo.m in Sources */,
 				4CA3965E1C0FE59A00CFC0E4 /* MasterViewController.m in Sources */,
-				4C07D4091C184E30003658DB /* FailedBankDetails+CoreDataProperties.m in Sources */,
+				4C07D4141C191AC4003658DB /* FailedBankDetails.m in Sources */,
 				4CA396471C0FE3DB00CFC0E4 /* FailedBankCD.xcdatamodeld in Sources */,
 				4CA396441C0FE3DB00CFC0E4 /* AppDelegate.m in Sources */,
-				4C07D4071C184E30003658DB /* FailedBankInfo+CoreDataProperties.m in Sources */,
-				4C07D40A1C184E30003658DB /* FailedBankDetails.m in Sources */,
-				4C07D4081C184E30003658DB /* FailedBankInfo.m in Sources */,
 				4CA396411C0FE3DB00CFC0E4 /* main.m in Sources */,
+				4C07D4151C191AC4003658DB /* FailedBankInfo+CoreDataProperties.m in Sources */,
+				4C07D4131C191AC4003658DB /* FailedBankDetails+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

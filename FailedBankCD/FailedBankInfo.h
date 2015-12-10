@@ -2,12 +2,14 @@
 //  FailedBankInfo.h
 //  FailedBankCD
 //
-//  Created by Michael on 15/12/9.
+//  Created by Michael on 15/12/10.
 //  Copyright © 2015年 Michael. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+
+@class FailedBankDetails;
 
 NS_ASSUME_NONNULL_BEGIN
 

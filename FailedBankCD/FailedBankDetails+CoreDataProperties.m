@@ -2,7 +2,7 @@
 //  FailedBankDetails+CoreDataProperties.m
 //  FailedBankCD
 //
-//  Created by Michael on 15/12/9.
+//  Created by Michael on 15/12/10.
 //  Copyright © 2015年 Michael. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
