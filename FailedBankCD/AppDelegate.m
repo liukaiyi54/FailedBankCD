@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MasterViewController.h"
+#import "FailedBankInfo.h"
+#include "FailedBankDetails.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
@@ -18,16 +20,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSManagedObjectContext *context = [self managedObjectContext];
-    NSManagedObject *failedBankInfo = [NSEntityDescription insertNewObjectForEntityForName:@"FailedBankInfo" inManagedObjectContext:context];
-    [failedBankInfo setValue:@"Test Bank" forKey:@"name"];
-    [failedBankInfo setValue:@"TestVille" forKey:@"city"];
-    [failedBankInfo setValue:@"Testland" forKey:@"state"];
-    NSManagedObject *failedBankDetails = [NSEntityDescription insertNewObjectForEntityForName:@"FailedBankDetails" inManagedObjectContext:context];
-    [failedBankDetails setValue:[NSDate date] forKey:@"closeDate"];
-    [failedBankDetails setValue:[NSDate date] forKey:@"updateDate"];
-    [failedBankDetails setValue:[NSNumber numberWithInt:12345] forKey:@"zip"];
-    [failedBankDetails setValue:failedBankInfo forKey:@"info"];
-    [failedBankInfo setValue:failedBankDetails forKey:@"details"];
+    FailedBankInfo *failedBankInfo = [NSEntityDescription insertNewObjectForEntityForName:@"FailedBankInfo" inManagedObjectContext:context];
+    failedBankInfo.name = @"Test Bank";
+    failedBankInfo.city = @"TestVille";
+    failedBankInfo.state = @"Testland";
+    FailedBankDetails *failedDetails = [NSEntityDescription insertNewObjectForEntityForName:@"FailedBankDetails" inManagedObjectContext:context];
+    failedDetails.closeDate = [NSDate date];
+    failedDetails.updateDate = [NSDate date];
+    failedDetails.zip = [NSNumber numberWithInt:12345];
+    failedDetails.info = failedBankInfo;
+    failedBankInfo.details = failedDetails;
     NSError *error;
     if (![context save:&error]) {
         NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
